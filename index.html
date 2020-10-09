@@ -13,7 +13,7 @@
       type="text/css"
     />
     <link type="text/css" rel="stylesheet" href="style.css" />
-    <title>Budgety</title>
+    <title>Budget Controll App</title>
   </head>
   <body>
     <div class="top">
@@ -22,12 +22,12 @@
           Available Budget in <span class="budget__title--month">%Month%</span>:
         </div>
 
-        <div class="budget__value">+ 2,345.64</div>
+        <div class="budget__value"></div>
 
         <div class="budget__income clearfix">
           <div class="budget__income--text">Income</div>
           <div class="right">
-            <div class="budget__income--value">+ 4,300.00</div>
+            <div class="budget__income--value"></div>
             <div class="budget__income--percentage">&nbsp;</div>
           </div>
         </div>
@@ -52,7 +52,7 @@
           <input
             type="text"
             class="add__description"
-            placeholder="Add description"
+            placeholder="Add Income(+) OR Expense(-)"
           />
           <input type="number" class="add__value" placeholder="Value" />
           <button class="add__btn">
